@@ -1,37 +1,20 @@
-# VinylVault
+# Vinyl Vault
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>VinylVault – Music Metadata Tool</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="VinylVault is a personal music metadata project using third-party APIs for BPM and key detection.">
-</head>
-<body>
+My personal vinyl collection manager with BPM data and filtering.
 
-    <main>
-        <h1>VinylVault</h1>
+## Features
+- Imports collection from Discogs
+- Automatic BPM fetching
+- Filter by genre, style, decade, BPM range
+- Custom tags and notes
 
-        <p>
-            VinylVault is a personal project focused on organising and enriching music collections
-            using publicly available music metadata APIs.
-        </p>
+## Credits
+- BPM and key data provided by [GetSongBPM](https://getsongbpm.com)
+- Collection data from [Discogs](https://discogs.com)
+```
 
-        <p>
-            Track tempo (BPM) data is provided in part by
-            <a href="https://getsongbpm.com/" target="_blank" rel="noopener noreferrer">
-                GetSongBPM
-            </a>.
-        </p>
+### Step 3: Use that URL for registration
 
-    </main>
-
-    <footer>
-        <p>
-            © 2026 VinylVault
-        </p>
-    </footer>
-
-</body>
-</html>
+On the GetSongBPM API registration form, enter:
+```
+https://github.com/YOUR_USERNAME/vinyl-vault
